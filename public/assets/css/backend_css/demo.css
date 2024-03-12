@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 992px){
+.feed-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+}
+@media screen and (min-width: 576px){
+.feed-col {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+}
+.feed-col {
+    display: flex;
+    align-items: stretch;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+}

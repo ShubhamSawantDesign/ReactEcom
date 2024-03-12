@@ -1,0 +1,27 @@
+.breadcrumb-item .fa{
+	vertical-align: baseline;
+}
+
+.field-required::after{
+	content: ' *';
+	color: red;
+}
+
+.field-icon {
+	float: right;
+	margin-top: -25px;
+	position: relative;
+	z-index: 2;
+	margin-right: 10px;
+}
+
+.old-amt{
+	text-decoration: line-through;
+	color: #aaa;
+}
+
+.error{
+	color: red;
+	font-size: 90%;
+	font-weight: 400;
+}

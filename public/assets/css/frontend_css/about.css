@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+    .intro-slider-container, .intro-slide .slide-image {
+        position: relative;
+        height: auto;
+    }
+    .owl-carousel .owl-stage {
+        position: relative;
+        -ms-touch-action: pan-Y;
+        touch-action: manipulation;
+        height: 200px  auto;
+        -moz-backface-visibility: hidden;
+    }
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        height: 200px !important;
+    }
+    .cr-h{
+        height: auto;
+    }
+}
